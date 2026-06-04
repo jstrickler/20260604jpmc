@@ -6,6 +6,7 @@ average = 3.4563892382
 # variables inserted into string
 print(f"It is {temperature}\u00B0 in {city}")
 print()
+s = f"It is {temperature}\u00B0 in {city}"
 
 # :03d means format (decimal) integer in 3 characters, 
 #      left-padded with zeros
@@ -14,5 +15,7 @@ print(f"hit count is {hit_count:03d} average is {average:.2f}")
 print()
 
 # any expression is OK
-print(f"2 + 2 is {2 + 2}")
+i = 12
+j = 8
+print(f"i + j is {i + j}")
 

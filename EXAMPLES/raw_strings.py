@@ -1,6 +1,6 @@
 regex = r"the\b\b\bend"
-file_path = r"c:\temp"
-message = r"please put a newline character (\n) after each line"
+file_path = r'c:\temp'
+message = r"""please put a newline character (\n) after each line"""
 
 print("** raw strings **")
 print(regex)

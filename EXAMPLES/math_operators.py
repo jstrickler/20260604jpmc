@@ -23,3 +23,11 @@ print(f"{(alpha + beta) * (gamma / delta) = }")
 print(f"{(alpha + (beta * gamma)) / delta = }")
 print(f"{alpha + ((beta * gamma) / delta) = }")
 
+a = "apple"
+a = "banana"
+# a = 12.394
+# a = None
+
+# a.some_method()
+a = a.upper()
+print("a is", a)

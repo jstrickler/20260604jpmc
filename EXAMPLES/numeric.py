@@ -15,3 +15,11 @@ print("f, g, h", f, g, h)
 print()
 print("a + b", a + b)
 print("a + f", a + f)
+
+# + - * / //  **  %
+
+# / "true" division
+# // floored (whole number) division
+
+
+
