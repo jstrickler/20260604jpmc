@@ -16,7 +16,7 @@ eggs = {
     'g': 3000,
 }
 # new way as of v3.9
-spam |= ham
+spam |= ham  # overwrite existing values; add new values
 print(f"{spam = }")
 
 # previous way (still works)

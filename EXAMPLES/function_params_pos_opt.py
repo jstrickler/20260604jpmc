@@ -6,4 +6,6 @@ def search_files(search_term, *file_paths):
                     print(raw_line.rstrip()) # remove \n
 
 search_files("bird", "../DATA/alice.txt", "../DATA/parrot.txt")
+search_files("bird")
+# search_files()
 

@@ -21,3 +21,6 @@ print(f"{airports['SLC'] = }\n")
 
 
 print(f"{airports = }")
+
+del airports['SLC']
+

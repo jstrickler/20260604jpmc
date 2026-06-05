@@ -12,3 +12,4 @@ with open(FILE_PATH) as mary_in:  # open file for reading
         line = raw_line.rstrip()
         print(line)
 
+    # mary_in.close() happens automagically

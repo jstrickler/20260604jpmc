@@ -14,6 +14,7 @@ def search_files(search_term, *file_paths, ignore_case=False):
                     print(raw_line.rstrip()) # remove \n
 
 search_files("lizard", "../DATA/alice.txt", "../DATA/words.txt", ignore_case=True)
+search_files("lizard", "../DATA/alice.txt", "../DATA/words.txt")
 print()
 
 def format_time(*, hour, minute):  # no parameters
