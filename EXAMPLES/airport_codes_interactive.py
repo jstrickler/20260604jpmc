@@ -1,3 +1,5 @@
+from airportdata import read_airport_data
+
 DATA_FILE = '../DATA/world_airport_codes.txt'
 # sample data
 # ABE ALLENTOWN, PENNSYLVANIA, USA
@@ -9,22 +11,10 @@ def main():
     Program entry point
     """
     # data_file = read_config() 
-    codes = read_data(DATA_FILE)
+    codes = read_airport_data(DATA_FILE)
     run_interactive_prompt(codes)
 
-def read_data(file_name):
-    """
-    Read airport data from flat file and return a dictionary.
-    """
-    airport_codes = {}
 
-    with open(file_name) as codes_in:
-        for raw_line in codes_in:
-            line = raw_line.rstrip('\n')
-            code = line[:3]  # first three chars
-            airport = line[4:]  # fifth char through end
-            airport_codes[code] = airport
-    return airport_codes
 
 def run_interactive_prompt(codes):
     """
@@ -43,5 +33,5 @@ def run_interactive_prompt(codes):
         city = codes.get(code.upper(), "NOT FOUND")
         print(city)
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # if this is the main script, rather than an imported module
     main()

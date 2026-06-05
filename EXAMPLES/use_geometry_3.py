@@ -1,5 +1,10 @@
 from geometry import circle_area, rectangle_area, square_area
 
+# import MODULE
+# MODULE.name
+# or
+# from MODULE import name, name, name
+
 circle = circle_area(8)
 print(f"{circle = }")
 
